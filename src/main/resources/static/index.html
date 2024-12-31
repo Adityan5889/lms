@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Learning Management System</title>-->
+<!--    <link rel="stylesheet" href="css/styles.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<header>-->
+<!--    <h1>Learning Management System</h1>-->
+<!--    <nav>-->
+<!--        <a href="login.html">Login</a>-->
+<!--        <a href="register.html">Register</a>-->
+<!--        <a href="courses.html">Courses</a>-->
+<!--    </nav>-->
+<!--</header>-->
+<!--<main>-->
+<!--    <h2>Welcome to the LMS</h2>-->
+<!--    <p>Your one-stop solution for learning!</p>-->
+<!--</main>-->
+<!--<footer>-->
+<!--    <p>&copy; 2024 LMS</p>-->
+<!--</footer>-->
+<!--<script src="js/script.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Learning Management System</h1>
+</header>
+<main>
+    <section id="course-list">
+        <h2>Available Courses</h2>
+        <ul id="courses"></ul>
+    </section>
+    <section id="add-course">
+        <h2>Add a Course</h2>
+        <form id="course-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <button type="submit">Add Course</button>
+        </form>
+    </section>
+</main>
+<script src="/static/js/script.js"></script>
+</body>
+</html>
