@@ -1,0 +1,1 @@
+Learning Management System: Design and develop a Learning Management System (LMS) using Java and HTML. The system should allow users to register, log in, access courses, and track progress. Implement essential features such as course uploading, quizzes, and progress dashboards, ensuring user-friendly navigation and responsive design.
